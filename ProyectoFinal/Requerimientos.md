@@ -20,5 +20,9 @@ El proyecto consiste en la creación de una aplicación en dónde los y las alum
 
 ### Requerimientos
 
+Los requerimientos defienen los elementos indispensables para que una página web de una cafetería que ofrece solo bebidas pueda operar satisfactoriamente. En función del cumplimiento de los requerimientos es que el proyecto se definirá como exitoso, dado que estos reflejan las necesidades demandadas por el cliente con respecto al producto. 
+
+1. Se debe ofrecer a los usuarios diferentes opciones de pago (débito, crédito y efectivo por ejemplo), realizar la transacción correspondiente al pago de los productos seleccionados y devolver cambio si es necesario al recibir el pago en efectivo. Dado que las bebidas son enviadas a domicilio, también es necesario dar cambio al repartidor para que pueda devolverlo al momento de hacer la entrega.
+
 PONER AQUÍ LOS REQUERIMIENTOS QUE SE CONSIDEREN NECESARIOS
 
