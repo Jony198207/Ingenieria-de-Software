@@ -1,28 +1,40 @@
-# Aplicación para bebidas de la cafetería - Proyecto Final 
-## Equipo Backyardigans 
-### Integrantes
-- Camila Martínez 
-- Fernanda Monter
-- Manuel Hermida
-- Raúl Resendiz
-- Jonathan Gutiérrez 
+# Especificación de Requerimientos
 
-![Pantalla principal de la cafetería](cafeteriaImagenPrincipal.jpg)
-  
-### Objetivo
-Realizar todo el ciclo de Ingeniería de Software con un proyecto web. En este caso particular, el proyecto web consiste en el desarrollo de una aplicación de servicio para una cafetería, atendiendo especificamente la logistica de las bebidas.
-### Descripción del proyecto
-El proyecto consiste en la creación de una aplicación en dónde los y las alumnas pueden hacer pedidos de bebidas a la cafetería. Durante el desarrollo deben atenderse los tres pilares del triángulo de calidad:
+## Tabla de Contenidos
 
-- **Tiempo:** El proyecto debe ser entregado el día 23 de noviembre del 2023, pero por buenas prácticas, el proyecto debe estar listo a más tardar el día 21 del mes ya mencionado. Esto quiere decir que solo contamos con un mes para desarrollar el proyecto.
-- **Recursos:** Somos 5 personas de capital humano (los integrantes mencionados en el encabezado de este archivos. Las computadoras personales representan la principal herramienta de trabajo que se tiene, así como el software libre disponible para el diseño y bosquejo de arquitecturas web. Hay que considerar que en este proyecto no habrá inverción económica alguna.
-- **Alcance:** Se deben desarrollar al menos las 3 funcionalidad principales para el funcionamiento de una cafetería web a nivel prototipo. Es decir, no es necesaria (más sí deseable) la programación de la página web, pero sí dse debe presentar el prototipo de las funcionalidades necesarias para que la cafetería pueda operar.
+* [Introduccion](##introduccion)
+* [System Features](##system-features)
 
-### Requerimientos
+## Introducción
 
 Los requerimientos defienen los elementos indispensables para que una página web de una cafetería que ofrece solo bebidas pueda operar satisfactoriamente. En función del cumplimiento de los requerimientos es que el proyecto se definirá como exitoso, dado que estos reflejan las necesidades demandadas por el cliente con respecto al producto. 
 
-1. Se debe ofrecer a los usuarios diferentes opciones de pago (débito, crédito y efectivo por ejemplo), realizar la transacción correspondiente al pago de los productos seleccionados y devolver cambio si es necesario al recibir el pago en efectivo. Dado que las bebidas son enviadas a domicilio, también es necesario dar cambio al repartidor para que pueda devolverlo al momento de hacer la entrega.
+## System Features
 
-PONER AQUÍ LOS REQUERIMIENTOS QUE SE CONSIDEREN NECESARIOS
+### Seleccionar y procesar método de pago
+
+El usuario puede elegir entre los distintos métodos de pago disponibles: débito, crédito y efectivo. Posteriormente, se deben llenar los datos correspondientes al método elegido, tales como información de la tarjeta. En caso de ser efectivo, se debe calcular el cambio necesario para que sea entregado por el repartidor durante la entrega a domicilio. Una vez recibida esta información, se procesa el pago, para autorizar la preparación y envío del producto.
+
+> **High Priority**: con este requerimiento recibimos ingresos, lo que permite al negocio continuar en servicio
+
+#### Secuencia de respuesta y requerimientos funcionales
+
+Una vez que el usuario termine de llenar su carrito, oprime el botón de 'pagar'. En el pago debe haber links con imágenes hacia las distintas opciones. Según el tipo de opción, deberan aparecer pestañas para llenar la información correspondiente. Posteriormente, se hace el procesamiento y se acepta o no el pago. En caso de ser rechazado, se debe repetir el proceso desde la selección de un método.
+* *buttons*: iniciar pago, seleccionar método, finalizar pago
+* *dropDownList*: fecha de caducidad
+* *textBox*: nombre en la tarjeta, codigo de seguridad (en modo contraseña)
+
+### Personalizar bebida
+
+El usuario puede añadir un toque personalizado a su bebida al poder definir: tamaño, crema batida, shots de café adicionales, toppings de crema batida, tipo de leche, número de endulzantes, entre otros. Según el tipo de bebida, ciertas opciones no estarán disponibles; por ejemplo, las bebidas calientes no acostumbran llevar crema batida. 
+
+> **High Priority**: hoy en día, es muy importante tener la capacidad de adaptar nuestros productos a las preferencias del consumidor, y así, ofrecer una gran experiencia
+
+#### Secuencia de respuesta y requerimientos funcionales
+
+Cuando el usuario termine de seleccionar su bebida, se debe abrir una pestaña con los opciones de personalización. El usuario dará click según sus preferencias y agregará el producto a su carrito. En caso de no seleccionar una opción, se tomará en cuenta el valor default definido por la cafeteria.
+* *radioButtons*: permiten una selección rápida y restringen las opciones a lo establecido por la cafeteria
+
+
+
 
