@@ -55,6 +55,33 @@ El usuario puede añadir un toque personalizado a su bebida al poder definir: ta
 Cuando el usuario termine de seleccionar su bebida, se debe abrir una pestaña con los opciones de personalización. El usuario dará click según sus preferencias y agregará el producto a su carrito. En caso de no seleccionar una opción, se tomará en cuenta el valor default definido por la cafeteria.
 * *radioButtons*: permiten una selección rápida y restringen las opciones a lo establecido por la cafeteria
 
+### Reseñas y Calificaciones de Bebidas
+
+Los usuarios tienen la opción de dejar reseñas y calificaciones para las bebidas que han ordenado. Esta funcionalidad proporciona retroalimentación valiosa tanto para la cafetería como para otros clientes potenciales. Las reseñas pueden incluir comentarios sobre el sabor, la presentación y cualquier personalización específica realizada.
+
+> **Medium Priority**: Agregar esta función puede mejorar la confianza del cliente y ayudar a promocionar las bebidas más populares.
+
+#### Secuencia de respuesta y requerimientos funcionales
+
+Después de completar un pedido, el usuario tiene la opción de dejar una reseña y asignar una calificación a la bebida en una escala de 1 a 5 estrellas. También puede escribir comentarios adicionales para proporcionar detalles específicos sobre su experiencia. Estas reseñas estarán disponibles para que otros clientes las vean al explorar el menú.
+
+* *starsRating*: Permite a los usuarios asignar fácilmente una calificación a la bebida.
+* *textBox*: Espacio para que los usuarios ingresen comentarios adicionales.
+* *button*: Enviar reseña.
+
+### Destacar Bebidas Populares
+
+En la página principal, se destacarán las bebidas más populares basadas en las calificaciones y reseñas de los usuarios. Esto ayuda a los nuevos clientes a descubrir las opciones más apreciadas y contribuye a la promoción de productos destacados.
+
+> **Low Priority**: Aunque no es de alta prioridad, resaltar las bebidas populares puede influir positivamente en las decisiones de compra.
+
+#### Secuencia de respuesta y requerimientos funcionales
+
+En la sección principal del menú, se mostrarán las bebidas mejor calificadas y más comentadas, junto con sus respectivas calificaciones y comentarios. Estas recomendaciones se actualizarán dinámicamente según las nuevas reseñas y calificaciones recibidas.
+
+* *sectionHighlight*: Espacio dedicado a las bebidas populares en la página principal.
+* *dynamicUpdate*: Automatización para actualizar las recomendaciones basadas en las nuevas reseñas.
+
 
 
 
