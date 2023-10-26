@@ -69,18 +69,6 @@ Después de completar un pedido, el usuario tiene la opción de dejar una reseñ
 * *textBox*: Espacio para que los usuarios ingresen comentarios adicionales.
 * *button*: Enviar reseña.
 
-### Destacar Bebidas Populares
-
-En la página principal, se destacarán las bebidas más populares basadas en las calificaciones y reseñas de los usuarios. Esto ayuda a los nuevos clientes a descubrir las opciones más apreciadas y contribuye a la promoción de productos destacados.
-
-> **Low Priority**: Aunque no es de alta prioridad, resaltar las bebidas populares puede influir positivamente en las decisiones de compra.
-
-#### Secuencia de respuesta y requerimientos funcionales
-
-En la sección principal del menú, se mostrarán las bebidas mejor calificadas y más comentadas, junto con sus respectivas calificaciones y comentarios. Estas recomendaciones se actualizarán dinámicamente según las nuevas reseñas y calificaciones recibidas.
-
-* *updates*: Automatización para actualizar las recomendaciones basadas en las nuevas reseñas.
-
 ### Programa de Recompensas
 
 La cafetería implementará un programa de recompensas para fomentar la lealtad del cliente. Los usuarios acumularán puntos por cada compra realizada a través de la plataforma en línea. Estos puntos podrán canjearse por descuentos, productos gratuitos u otras recompensas especiales.
