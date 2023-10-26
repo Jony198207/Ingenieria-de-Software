@@ -3,12 +3,14 @@
 ## Tabla de Contenidos
 
 * [Introduccion](##introduccion)
+* [Descripción](##descripción)
 * [System Features](##system-features)
 
 ## Introducción
 
 Los requerimientos defienen los elementos indispensables para que una página web de una cafetería que ofrece solo bebidas pueda operar satisfactoriamente. En función del cumplimiento de los requerimientos es que el proyecto se definirá como exitoso, dado que estos reflejan las necesidades demandadas por el cliente con respecto al producto. 
 
+##Descripción
 
 ## System Features
 
