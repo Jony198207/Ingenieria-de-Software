@@ -19,11 +19,11 @@ La aplicación de la cafetería se centrará en proporcionar a los clientes una 
 
 ## System Features
 
-## Inicio de sesión
+## Iniciar sesión
 
-El usuario inicia sesión con su usuario y contraseña que previamente registro.
+Para acceder a su cuenta, el usuario realiza el inicio de sesión ingresando su nombre de usuario y contraseña, los cuales previamente ha registrado en el sistema.
 
-> **High Priority**: con este requerimiento recibimos las credenciales de los clientes para procesar sus pedidos
+> **High Priority**: Este requisito es esencial para obtener las credenciales de los clientes, permitiendo así el procesamiento eficiente de sus pedidos.
 
 #### Secuencia de respuesta y requerimientos funcionales
 
