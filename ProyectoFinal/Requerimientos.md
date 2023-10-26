@@ -55,7 +55,7 @@ El usuario puede añadir un toque personalizado a su bebida al poder definir: ta
 Cuando el usuario termine de seleccionar su bebida, se debe abrir una pestaña con los opciones de personalización. El usuario dará click según sus preferencias y agregará el producto a su carrito. En caso de no seleccionar una opción, se tomará en cuenta el valor default definido por la cafeteria.
 * *radioButtons*: permiten una selección rápida y restringen las opciones a lo establecido por la cafeteria
 
-### Reseñas y Calificaciones de Bebidas
+### Reseñas y calificaciones de bebidas
 
 Los usuarios tienen la opción de dejar reseñas y calificaciones para las bebidas que han ordenado. Esta funcionalidad proporciona retroalimentación valiosa tanto para la cafetería como para otros clientes potenciales. Las reseñas pueden incluir comentarios sobre el sabor, la presentación y cualquier personalización específica realizada.
 
@@ -79,8 +79,7 @@ En la página principal, se destacarán las bebidas más populares basadas en la
 
 En la sección principal del menú, se mostrarán las bebidas mejor calificadas y más comentadas, junto con sus respectivas calificaciones y comentarios. Estas recomendaciones se actualizarán dinámicamente según las nuevas reseñas y calificaciones recibidas.
 
-* *sectionHighlight*: Espacio dedicado a las bebidas populares en la página principal.
-* *dynamicUpdate*: Automatización para actualizar las recomendaciones basadas en las nuevas reseñas.
+* *updates*: Automatización para actualizar las recomendaciones basadas en las nuevas reseñas.
 
 ### Programa de Recompensas
 
@@ -92,9 +91,8 @@ La cafetería implementará un programa de recompensas para fomentar la lealtad 
 
 Cada vez que un usuario realiza un pedido, acumula puntos en su cuenta. Los puntos acumulados se mostrarán en la interfaz del usuario, y se proporcionará una descripción clara de las recompensas disponibles y cómo pueden canjearse. Los clientes podrán aplicar sus puntos durante el proceso de pago para obtener descuentos o recompensas específicas.
 
-* *pointsTracking*: Sistema de seguimiento de puntos acumulados.
-* *rewardsCatalog*: Catálogo que muestra las recompensas disponibles.
-* *applyPoints*: Funcionalidad para aplicar puntos durante el proceso de pago.
+* *Tracker de puntos*: Sistema de seguimiento de puntos acumulados.
+* *Catálogo de recompensas*: Catálogo que muestra las recompensas disponibles dependiendo de la temporada del año o existencia de las recompensas.
 
 
 
