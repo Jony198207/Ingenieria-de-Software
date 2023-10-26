@@ -19,7 +19,7 @@ La aplicación de la cafetería se centrará en proporcionar a los clientes una 
 
 ## System Features
 
-## Iniciar sesión
+### Iniciar sesión
 
 Para acceder a su cuenta, el usuario realiza el inicio de sesión ingresando su nombre de usuario y contraseña, los cuales previamente ha registrado en el sistema.
 
