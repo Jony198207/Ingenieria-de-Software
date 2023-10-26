@@ -12,6 +12,11 @@ Los requerimientos defienen los elementos indispensables para que una página we
 
 ## Descripción
 
+### Perspectivas del producto 
+
+La aplicación de la cafetería se centrará en proporcionar a los clientes una experiencia completa y conveniente. Incluirá un menú digital interactivo con opciones de personalización, permitirá pedidos en línea con pagos seguros, e implementará un programa de lealtad con descuentos y promociones exclusivas. 
+
+
 ## System Features
 
 ### Seleccionar y procesar método de pago
