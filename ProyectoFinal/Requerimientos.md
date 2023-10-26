@@ -82,6 +82,20 @@ En la sección principal del menú, se mostrarán las bebidas mejor calificadas 
 * *sectionHighlight*: Espacio dedicado a las bebidas populares en la página principal.
 * *dynamicUpdate*: Automatización para actualizar las recomendaciones basadas en las nuevas reseñas.
 
+### Programa de Recompensas
+
+La cafetería implementará un programa de recompensas para fomentar la lealtad del cliente. Los usuarios acumularán puntos por cada compra realizada a través de la plataforma en línea. Estos puntos podrán canjearse por descuentos, productos gratuitos u otras recompensas especiales.
+
+> **High Priority**: La implementación de un programa de recompensas puede incentivar a los clientes a realizar pedidos recurrentes y aumentar la retención.
+
+#### Secuencia de respuesta y requerimientos funcionales
+
+Cada vez que un usuario realiza un pedido, acumula puntos en su cuenta. Los puntos acumulados se mostrarán en la interfaz del usuario, y se proporcionará una descripción clara de las recompensas disponibles y cómo pueden canjearse. Los clientes podrán aplicar sus puntos durante el proceso de pago para obtener descuentos o recompensas específicas.
+
+* *pointsTracking*: Sistema de seguimiento de puntos acumulados.
+* *rewardsCatalog*: Catálogo que muestra las recompensas disponibles.
+* *applyPoints*: Funcionalidad para aplicar puntos durante el proceso de pago.
+
 
 
 
