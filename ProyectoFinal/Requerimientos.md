@@ -19,6 +19,18 @@ La aplicación de la cafetería se centrará en proporcionar a los clientes una 
 
 ## System Features
 
+## Inicio de sesión
+
+El usuario inicia sesión con su usuario y contraseña que previamente registro.
+
+> **High Priority**: con este requerimiento recibimos las credenciales de los clientes para procesar sus pedidos
+
+#### Secuencia de respuesta y requerimientos funcionales
+
+* *buttons*: Log in, Sign up
+* *textBox*: nombre del usuario y contraseña
+
+
 ### Seleccionar y procesar método de pago
 
 El usuario puede elegir entre los distintos métodos de pago disponibles: débito, crédito y efectivo. Posteriormente, se deben llenar los datos correspondientes al método elegido, tales como información de la tarjeta. En caso de ser efectivo, se debe calcular el cambio necesario para que sea entregado por el repartidor durante la entrega a domicilio. Una vez recibida esta información, se procesa el pago, para autorizar la preparación y envío del producto.
