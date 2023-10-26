@@ -4,7 +4,7 @@
 - Camila Martínez 
 - Fernanda Monter
 - Manuel Hermida
-- Raúl Resendiz
+- Raúl Reséndiz
 - Jonathan Gutiérrez 
   
 ## Objetivo
